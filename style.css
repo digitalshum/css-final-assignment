@@ -654,8 +654,8 @@ tr:last-child td {
 }
 
 input {
-    padding: 4px 15px;
-    margin: 10px;
+    padding: 4px 0px;
+    margin: 5px;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -1019,6 +1019,7 @@ input {
     }
 
     .advantages {
+        margin: 0px;
         width: 425px;
         height: 450px;
     }
