@@ -766,7 +766,6 @@ input {
 
     body {
         width: 425px;
-        overflow-x: hidden;
     }
 
     * {
@@ -1022,7 +1021,6 @@ input {
     .advantages {
         width: 425px;
         height: 450px;
-        margin: 0px;
     }
 
     .adh {
