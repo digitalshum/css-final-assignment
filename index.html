@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>22 Nov</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -40,13 +40,13 @@
         </div>
         <div class="nav">
             <ul>
-                <li><a href="#" class="h">HOME</a></li>
+                <li><a href="#" class="hh">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">SERVICES</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">REVIEW</a></li>
-                <li><a href="#">OUR SKILLS</a></li>
                 <li><a href="#">CONTECT US</a></li>
+                <li><a class="navm" href="#">PORTFOLIO</a></li>
+                <li><a class="navm" href="#">REVIEW</a></li>
+                <li><a class="navm" href="#">OUR SKILLS</a></li>
             </ul>
         </div>
         <div class="butn">
@@ -56,13 +56,13 @@
 
     </div>
     <!-- ////////header close/////// -->
-     
+
     <section>
         <div class="banner" id="home">
             <div class="banner1">
                 <p class="hi">Hello! i am</p>
-                <h1 class="shum">Shumaila qamar</h1>
-                <p class="hii">Marketer & Wordpress Designer</p>
+                <h1 class="shum">Shumaila <span class="shums">Qamar</span></h1>
+                <p class="hii him">Marketer & Wordpress Designer</p>
                 <button class="reade btn">Read More</button>
             </div>
             <div class="banner2">
@@ -73,10 +73,11 @@
 
     <!-- advantages -->
     <section class="advantages">
-        <h1 class="our">MY <span class="ourr">EXPERTISE</span></h1>
-        <P class="ourp">Provide Wide Range of
-            Digital Services</P>
-
+        <div class="adh">
+            <h1 class="our">MY <span class="ourr">EXPERTISE</span></h1>
+            <P class="ourp">Provide Wide Range of
+                Digital Services</P>
+        </div>
         <div class="boxes">
             <div class="box1">
                 <p class="ic"><i class="fa-regular fa-lightbulb icc"></i></p>
@@ -113,7 +114,7 @@
     <!-- about -->
     <section class="about">
         <div class="ourabout">
-            <h1>ABOUT <span class="ourr">US</span></h1>
+            <h1 class="h">ABOUT <span class="ourr">US</span></h1>
         </div>
         <div class="bannerr">
             <div>
@@ -121,15 +122,16 @@
                     asperiores, officiis esse quo consequatur? <br><br> Lorem ipsum dolor, sit amet consectetur
                     adipisicing elit. Numquam vero voluptatibus earum minus. Dolores quia eaque nemo itaque dolorum quam
                     corporis eligendi quaerat, tempore esse fugit, sunt consectetur ullam magni.
-                    Facere magni quidem perspiciatis rem eaque consequuntur enim autem ea, similique? <br><br> Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Et
-                    libero qui ullam, corrupti harum cum possimus voluptatem similique molestiae dicta distinctio a,
-                    fugiat explicabo iusto eos officiis nostrum veniam dolores! fugit similique quasi, dolorem
-                    laudantium voluptatem rerum saepe consequatu.</p>
+                    Facere magni quidem perspiciatis rem eaque consequuntur enim autem ea, similique? <br><span
+                        class="bre"><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                        libero qui ullam, corrupti harum cum possimus voluptatem similique molestiae dicta distinctio a,
+                        fugiat explicabo iusto eos officiis nostrum veniam dolores! fugit similique quasi, dolorem
+                        laudantium voluptatem rerum saepe consequatu.</span></p>
                 <button class="readd">Read More</button>
             </div>
             <div class="aboutpic">
-                <img src="./imges/about-us.png" alt="Shum Vactor" width="550px" height="350px">
+                <img class="abp" src="./imges/about-us.png" alt="Shum Vactor" width="550px" height="350px">
 
             </div>
         </div>
@@ -213,7 +215,7 @@
         </div>
     </section>
     <!-- process -->
-    <section class="services">
+    <section class="services hdsv">
         <div class="serv">
             <h1 class="our">OUR <span class="ourr">PROCESS</span></h1>
             <P class="ourp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quisquam explicabo
@@ -295,24 +297,24 @@
                 <tr>
                     <td>
                         <div class="team-card">
-                            <div>
+                            <div class="tc1">
                                 <img src="./imges/user.png" alt="Profile Picture">
                             </div>
-                            <div>
+                            <div class="tc2">
                                 <h2>JOHN DOE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+                                <p>Lorem ipsum dolor sit amet, contetur adipiscing elit, sed diam nonummy nibh
                                     tempor.</p>
                             </div>
                         </div>
                     </td>
                     <td>
                         <div class="team-card">
-                            <div>
+                            <div class="tc1">
                                 <img src="./imges/user.png" alt="Profile Picture">
                             </div>
-                            <div>
+                            <div class="tc2">
                                 <h2>JOHN DOE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+                                <p>Lorem ipsum dolor sit amet, contetur adipiscing elit, sed diam nonummy nibh
                                     tempor.</p>
                             </div>
                         </div>
@@ -321,32 +323,30 @@
                 <tr>
                     <td>
                         <div class="team-card">
-                            <div>
+                            <div class="tc1">
                                 <img src="./imges/user.png" alt="Profile Picture">
                             </div>
-                            <div>
+                            <div class="tc2">
                                 <h2>JOHN DOE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+                                <p>Lorem ipsum dolor sit amet, contetur adipiscing elit, sed diam nonummy nibh
                                     tempor.</p>
                             </div>
                         </div>
                     </td>
                     <td>
                         <div class="team-card">
-                            <div>
+                            <div class="tc1">
                                 <img src="./imges/user.png" alt="Profile Picture">
                             </div>
-                            <div>
+                            <div class="tc2">
                                 <h2>JOHN DOE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+                                <p>Lorem ipsum dolor sit amet, contetur adipiscing elit, sed diam nonummy nibh
                                     tempor.</p>
                             </div>
                         </div>
                     </td>
                 </tr>
             </table>
-
-
 
             <!-- ////section skills//// -->
             <section class="skll">
@@ -404,7 +404,7 @@
                 </p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115842.59328557776!2d67.0334976!3d24.8610816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1735021869838!5m2!1sen!2s"
-                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="100%" height="225" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
 
@@ -412,12 +412,14 @@
                 <div class="foot">
                     <div class="foot1">
                         <a href="#top"><img class="im1" src="./imges/DS LOGO.png" alt="shum logo"></a>
-                        <p class="foot1p">Lorem ipsum dolor sit amet consectetur adipisicing magni facilis, eum a aliquid nam!
+                        <p class="foot1p">Lorem ipsum dolor sit amet consectetur adipisicing magni facilis, eum a
+                            aliquid nam!
                             Sapiente, obcaecati. Qui delectus doloribus illo!</p>
-                            <br>
-                            <p>&#169 <a class="tag" href="https://www.facebook.com/shumailaqamar8" target="_blank">Shumaila Qamar</a>2024</p>
+                        <br>
+                        <p>&#169 <a class="tag" href="https://www.facebook.com/shumailaqamar8" target="_blank">Shumaila
+                                Qamar</a>2024</p>
                     </div>
-                    <div>
+                    <div class="ftn">
                         <h1>SERVICES</h1>
                         <div class="foot2">
                             <ul>
@@ -431,7 +433,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    <div class="ftn">
                         <h1>USEFUL LINKS</h1>
                         <div class="foot2">
                             <ul>
@@ -446,8 +448,8 @@
                         </div>
                     </div>
                     <div>
-                        <h1>CONTCTS</h1>
-                        <p class="p6">
+                        <h1 class="ftn">CONTCTS</h1>
+                        <p class="p6 ftn">
                             <i class="fa-solid fa-phone"></i><a class="p4" href="callto:+923122675757"
                                 target="_blank">+92
                                 312 2675757</a> <br>
