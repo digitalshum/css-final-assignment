@@ -765,7 +765,8 @@ input {
 @media only screen and (max-width: 425px) {
 
     body {
-        width: 425px;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     * {
@@ -1021,6 +1022,7 @@ input {
     .advantages {
         width: 425px;
         height: 450px;
+        margin: 0px;
     }
 
     .adh {
@@ -1213,7 +1215,7 @@ input {
 
     .pic10 {
         padding-left: 30px;
-        padding-top: 25px;
+        padding-top: 5px;
         align-items: center;
         align-content: center;
     }
